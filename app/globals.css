@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f2f2f2;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@theme {
+  --color-cafe-dark: #1c1002;
+  --color-cafe: #422100;
+  --color-cafe-medium: #4b2a05;
+  --color-cafe-light: #643200;
+  --color-cafe-background: #643200;
+  --color-cafe-primary-text: #FFFFFF;
+  --color-light-gray: #f2f2f2;
+  --color-clerk-band: #002060;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ruby {
+  ruby-align: center;
+}
+
+ruby rt {
+  font-size: 0.5em;
+  line-height: 1;
+}
+
+.writing-vertical-rl {
+  writing-mode: vertical-rl;
+}
