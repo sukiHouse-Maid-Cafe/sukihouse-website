@@ -120,7 +120,7 @@ export default function ClerkCard({
       </div>
 
       {direction === "vertical" && (
-        <div className={`basis-36 relative ${typeInfo.bg} text-white`}>
+        <div className={`basis-20 shrink-0 relative ${typeInfo.bg} text-white`}>
           <span className="text-4xl absolute right-2.5 top-2.5 font-bold text-white/15">
             {number}
           </span>
