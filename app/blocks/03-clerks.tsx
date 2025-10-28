@@ -4,7 +4,7 @@ import ClerkCard from "../components/ClerkCard";
 
 export default function BlockClerks() {
   return (
-    <section className="min-h-screen bg-gray-100 py-16 px-8">
+    <section id="clerks" className="min-h-screen bg-gray-100 py-16 px-8">
       <div className="max-w-6xl mx-auto">
         <BlockTitle blockNumber="03" title="妹抖 / 店员介绍" />
 

@@ -17,7 +17,7 @@ export default function BlockBGM() {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto min-h-screen w-full bg-light-gray flex flex-col items-start justify-center">
+    <section id="bgm" className="max-w-6xl mx-auto min-h-screen w-full bg-light-gray flex flex-col items-start justify-center">
       <BlockTitle blockNumber="01" title="本店的 BGM ~" />
 
       {/* Weekday buttons and play button container */}

@@ -22,7 +22,7 @@ export default function BlockJoin() {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto min-h-screen w-full bg-light-gray flex flex-col items-start justify-center">
+    <section id="join" className="max-w-6xl mx-auto min-h-screen w-full bg-light-gray flex flex-col items-start justify-center">
       <BlockTitle blockNumber="05" title="加入 sukiClub" />
 
       <div className="flex items-center gap-16 w-full justify-around">

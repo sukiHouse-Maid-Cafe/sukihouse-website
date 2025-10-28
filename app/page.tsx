@@ -4,6 +4,7 @@ import BlockBGM from "./blocks/01-bgm";
 import BlockClerks from "@/app/blocks/03-clerks";
 import BlockMenu from "@/app/blocks/04-menu";
 import BlockJoin from "@/app/blocks/05-join";
+import { Footer } from "@/app/blocks/footer";
 
 const noto_sans_sc = Noto_Sans_SC({
   subsets: ["latin"],
@@ -18,6 +19,7 @@ export default function Home() {
       <BlockClerks />
       <BlockMenu />
       <BlockJoin />
+      <Footer />
     </div>
   );
 }

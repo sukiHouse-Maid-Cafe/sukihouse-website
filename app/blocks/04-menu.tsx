@@ -10,7 +10,7 @@ export default function BlockMenu() {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto min-h-screen w-full bg-light-gray flex flex-col items-start justify-center">
+    <section id="menu" className="max-w-6xl mx-auto min-h-screen w-full bg-light-gray flex flex-col items-start justify-center">
       <BlockTitle blockNumber="04" title="我们的 menu" />
 
       <div className="flex items-center gap-6 w-full justify-center">
